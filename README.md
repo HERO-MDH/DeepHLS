@@ -15,7 +15,7 @@ The toolchain comprises various tools and stages to create proper C version. Her
 
 Figure below shows an overview of the whole toolchain. The current repository is the implementation for the "Keras to C" tool.
 
-![Flow](Figures/flow.png "Flow")
+![Flow](Figures/flow.jpg "Flow")
 
 #### Preprocessing:
 * This stage is optional if only the conversion to C is needed and no verification or Fixed-point 
