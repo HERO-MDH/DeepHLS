@@ -1,0 +1,8 @@
+model.add(Conv2D(filters=6, kernel_size=(5,5), activation='relu', input_shape=(28, 28, 1)))
+model.add(MaxPool2D(strides=(2,2)))
+model.add(Conv2D(filters=16, kernel_size=(5,5), activation='relu'))
+model.add(MaxPool2D(strides=(2,2)))
+model.add(Flatten())
+model.add(Dense(120, activation='relu'))
+model.add(Dense(84, activation='relu'))
+model.add(Dense(10, activation='softmax'))

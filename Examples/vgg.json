@@ -1,0 +1,44 @@
+{
+	"keras-source-text": [
+		"model.add(Conv2D(filters=64, kernel_size=(3,3), padding='same', activation='relu', input_shape=(32, 32, 3)))",
+		"model.add(Conv2D(filters=64, kernel_size=(3,3), padding='same', activation='relu', strides=(2,2)))",
+
+		"model.add(Conv2D(filters=128, kernel_size=(3,3), padding='same', activation='relu'))",
+		"model.add(Conv2D(filters=128, kernel_size=(3,3), padding='same', activation='relu', strides=(2,2)))",
+
+		"model.add(Conv2D(filters=256, kernel_size=(3,3), padding='same', activation='relu'))",
+		"model.add(Conv2D(filters=256, kernel_size=(3,3), padding='same', activation='relu'))",
+		"model.add(Conv2D(filters=256, kernel_size=(3,3), padding='same', activation='relu', strides=(2,2)))",
+
+		"model.add(Conv2D(filters=512, kernel_size=(3,3), padding='same', activation='relu'))",
+		"model.add(Conv2D(filters=512, kernel_size=(3,3), padding='same', activation='relu'))",
+		"model.add(Conv2D(filters=512, kernel_size=(3,3), padding='same', activation='relu', strides=(2,2)))",
+
+		"model.add(Conv2D(filters=512, kernel_size=(3,3), padding='same', activation='relu'))",
+		"model.add(Conv2D(filters=512, kernel_size=(3,3), padding='same', activation='relu'))",
+		"model.add(Conv2D(filters=512, kernel_size=(3,3), padding='same', activation='relu', strides=(2,2)))",
+
+		"model.add(Flatten())",
+		"model.add(Dense(10, activation='relu'))"
+	],
+	"design-source": "keras-source-text",
+	"loop-orders": [
+		"*", 
+		"oz-iz-oy-ox-kx-ky", 
+		"oz-iz-oy-ox-kx-ky", 
+		"oz-iz-oy-ox-kx-ky", 
+		"oz-iz-oy-ox-kx-ky", 
+		"oz-iz-oy-ox-kx-ky", 
+		"oz-iz-oy-ox-kx-ky", 
+		"oz-iz-oy-ox-kx-ky", 
+		"oz-iz-oy-ox-kx-ky", 
+		"oz-iz-oy-ox-kx-ky", 
+		"oz-iz-oy-ox-kx-ky", 
+		"oz-iz-oy-ox-kx-ky", 
+		"oz-iz-oy-ox-kx-ky", 
+		"*", 
+		"*"
+	],
+	"data-type-mode": "fixed-point-single",
+	"loop-hierarchy-labels": "numbers"
+}
