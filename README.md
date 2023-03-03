@@ -13,8 +13,9 @@ Riazati, Mohammad, Masoud Daneshtalab, Mikael Sjödin, and Björn Lisper. "DeepH
 This tool is part a toolchain to generate a C implementation of a Deep Neural Network suitable to be synthesized by HLS.  
 The toolchain comprises various tools and stages to create proper C version. Here is a quick summary of each stage.
 
-Figure below shows an overview of the whole toolchain. The current repository is the implementation for the "Keras to C" tool.
-Other parts of the toolchain, DeepSimulator and Keras Preprocessing, are opensourced as separate reporisitories under the same github user page.
+The figure below shows an overview of the whole toolchain. The current repository is the implementation for the "Keras to C" tool.
+
+Other parts of the toolchain, DeepSimulator and Keras Preprocessing, are opensourced as separate repositories under the same GitHub user page.
 
 ![Flow](Figures/flow.jpg "Flow")
 
